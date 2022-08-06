@@ -1,0 +1,18 @@
+{
+	"mainFileName":"mainimage", 
+	"mainDescription":"Većina danas vidljivih ostataka prapovijesnih struktura na području Velebita potječe iz brončanoga i željeznoga doba, dakle od oko 2500. godine pa do I. stoljeća prije Krista. Brončano doba karakterizira postupno raslojavanje društva čija elita temelji svoju moć na proizvodnji i razmjeni predmeta od kovina i drugih rijetkih dobara. Društveni dodiri i mreže razmjene u tim razdobljima sve čvršće povezuju obje strane Velebita; dok je primorska padina Velebita pripadala pomorski usmjerenim Liburnima, kontinentalnu stranu planine nastanjuju Japodi.\n\nU takvim okolnostima podižu se u podnožju Velebita prve monumentalne građevine – gradine i gomile. Gradine su pretpovijesne utvrde izgrađene na uzvisinama i istaknutim strateškim položajima. Najčešće su podignute na krševitim glavicama i grebenima, a bile su utvrđene bedemima građenima u tehnici suhozida od krupnoga neobrađenog kamenja. Većina gradina nanizana je duž nižega dijela primorske padine Velebita, no ima ih i na većim visinama. Iako su mnogi suhozidni bedemi gradina s vremenom srušeni i rasuti niz padine, još uvijek se mjestimice mogu uočiti, a neki su visoki i po nekoliko metara.\nGradine su imale različite namjene: neke su služile kao zaklon stanovnicima obližnjih zaselaka u slučaju opasnosti, neke su štitile značajnije prostore plodnih polja ili pašnjaka te su ujedno nadzirale pastirske i trgovačke puteve koji su vodili u Velebit, preko njega i u Liku, a one podignute nad Velebitskim kanalom vjerojatno su služile kao stražarnice za nadziranje plovidbe.\nOko gradina obično se nalaze gomile: grobovi lokalnih moćnika koji su za brončanoga i željeznoga doba gospodarili Velebitom. Mnogi od njih pokopani su pod velikim, okruglim gomilama od nabacanog kamenja ispod kojih se nalaze grobnice od kamenih ploča.\nPojedine gomile ističu se svojim položajem na ključnim mjestima unutar krajolika, kao što su važni prijevoji i sjecišta puteva. Osim što su to jasno vidljivi spomenici podignuti istaknutim članovima prapovijesnih zajednica, gomile su svojim prisustvom jasno svjedočile o trajnom pripadanju nekog prostora određenoj lokalnoj zajednici. U kasnijim stoljećima gomile su često bile na meti pljačkaša, a kamenje s njih odnošeno je za gradnju suhozidâ ili upotrebljavano kao građevinski materijal. Gomile su ugrožene i u današnje vrijeme kada nestaju pod pritiskom izgradnje prometnica i širenja naselja.",
+	"galleryPhotos":[
+		{"fileName":"galleryimage1", "photoName":"Gomila prva"},
+		{"fileName":"galleryimage2", "photoName":"Gomila druga"},
+		{"fileName":"galleryimage3", "photoName":"Gomila treća"},
+		{"fileName":"galleryimage4", "photoName":"Gomila četvrta"},
+		{"fileName":"galleryimage5", "photoName":"Gomila peta"},
+		{"fileName":"galleryimage6", "photoName":"Gomila peta"},
+		{"fileName":"galleryimage7", "photoName":"Gomila peta"},
+		{"fileName":"galleryimage8", "photoName":"Gradina prva"},
+		{"fileName":"galleryimage9", "photoName":"Gradina druga"},
+		{"fileName":"galleryimage10", "photoName":"Gomila peta"},
+		{"fileName":"galleryimage11", "photoName":"Gradina treća"},
+		{"fileName":"galleryimage12", "photoName":"Gradina četvrta"}
+	]
+}

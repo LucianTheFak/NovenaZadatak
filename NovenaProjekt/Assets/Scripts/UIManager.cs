@@ -18,17 +18,17 @@ public class UIManager : MonoBehaviour
     public Image galleryMenuPhoto;
     public Text galleryMenuText;
     public Image ZoomedInPhoto;
+    public LocalizeStrings localization;
+    public GalleryPhotoData openGalleryPhoto;
+
+    public MainPhoto mainPhoto;
 
     private void Awake()
     {
-        MainPhoto mainPhoto = JsonUtility.FromJson<MainPhoto>(photoDataJSON.text);
+        mainPhoto = JsonUtility.FromJson<MainPhoto>(photoDataJSON.text);
         StartCoroutine(ChangeMainImage(mainPhoto.mainFileName));
-        graditeljText.text = mainPhoto.mainDescription;
+        graditeljText.text = mainPhoto.mainDescriptionHRV;
         GalleryPhotos galleryPhotosInJson = JsonUtility.FromJson<GalleryPhotos>(photoDataJSON.text);
-        foreach (GalleryPhoto photo in galleryPhotosInJson.galleryPhotos)
-        {
-            Debug.Log("File Name: " + photo.fileName + "  Photo Name: " + photo.photoName);
-        }
         for (int i = 0; i < galleryPhotosInJson.galleryPhotos.Length; i++)
         {
             galleryPhotoDatas[i].photo = galleryPhotosInJson.galleryPhotos[i];
@@ -52,10 +52,12 @@ public class UIManager : MonoBehaviour
 
     public void MoveGalleryMenu(GalleryPhotoData clickedPhoto)
     {
+        openGalleryPhoto = clickedPhoto;
         galleryMenu.transform.position = clickedPhoto.transform.position;
         imageToFollow = clickedPhoto.gameObject;
         galleryMenuPhoto.sprite = clickedPhoto.photoImage.sprite;
-        galleryMenuText.text = clickedPhoto.photo.photoName;
+        if(localization.currentLanguage == LocalizeStrings.Language.Croatian) galleryMenuText.text = clickedPhoto.photo.photoNameHRV;
+        else galleryMenuText.text = clickedPhoto.photo.photoNameENG;
     }
 
     public void ZoomInPhoto(int photo)
@@ -91,7 +93,8 @@ public class UIManager : MonoBehaviour
 public class GalleryPhoto
 {
     public string fileName;
-    public string photoName;
+    public string photoNameHRV;
+    public string photoNameENG;
 }
 
 [System.Serializable]
@@ -104,5 +107,6 @@ public class GalleryPhotos
 public class MainPhoto
 {
     public string mainFileName;
-    public string mainDescription;
+    public string mainDescriptionHRV;
+    public string mainDescriptionENG;
 }

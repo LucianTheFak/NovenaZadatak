@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Text
+  m_TableCollectionNameGuidString: a00c3f31e9e358a4bb7a2e5d8d3915ee
+  m_Entries:
+  - m_Id: 4140385390592
+    m_Key: GalleryTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5689094393856
+    m_Key: Izbornik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19833159897088
+    m_Key: Galerija
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19866638831616
+    m_Key: GraditeljTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21982723919872
+    m_Key: GalerijaMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21985651544064
+    m_Key: GraditeljMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34360496705536
+    m_Key: Pogledaj
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1335515351684743216
+  references:
+    version: 2
+    RefIds:
+    - rid: 1335515351684743216
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1659806880730
